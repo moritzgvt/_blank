@@ -1,0 +1,21 @@
+{
+  "name": "headless-vue-portfolio",
+  "version": "1.0.0",
+  "description": "Headless Vue.JS Portfolio powered by Wordpress",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"docker-compose -f backend/docker-compose.yml up\" \"npm --prefix frontend/ run serve\""
+  },
+  "keywords": [
+    "headless",
+    "vue",
+    "wordpress",
+    "wp",
+    "portfolio"
+  ],
+  "author": "Julien Bisconti <julienbi@unity3d.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "concurrently": "^6.0.0"
+  }
+}

@@ -1,0 +1,42 @@
+# Root directry
+.DS_Store
+node_modules
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Frontend
+frontend/.DS_Store
+frontend/node_modules
+frontend/dist
+
+frontend/.env.local
+frontend/.env.*.local
+
+# Backend
+backend/theme/*
+!backend/theme/custom
+
+backend/db/
+backend/wp/
+
+# Log files
+*/npm-debug.log*
+*/yarn-debug.log*
+*/yarn-error.log*
+*/pnpm-debug.log*
+
+# Editor directories and files
+.idea
+*/.idea
+.vscode
+*/.vscode
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
